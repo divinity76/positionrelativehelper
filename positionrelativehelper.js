@@ -201,6 +201,7 @@ return;
 	self.panel.appendChild(document.createElement("input"));
 	self.panel.lastChild.type="text";
 	self.panel.lastChild.value="0px";
+	self.panel.lastChild.style.color="black";
 	self.current_target_left_input_box=self.panel.lastChild;
 	//</current_target_left_input_box>
 	var foo="mousedown";
@@ -228,6 +229,7 @@ return;
 	self.panel.appendChild(document.createElement("input"));
 	self.panel.lastChild.type="text";
 	self.panel.lastChild.value="0px";
+	self.panel.lastChild.style.color="black";
 	self.current_target_top_input_box=self.panel.lastChild;
 	//</current_target_top_input_box>
 	//<current_target_top_plus_button>
