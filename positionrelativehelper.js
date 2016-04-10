@@ -173,6 +173,7 @@ return;
 	self=window.position_relative_helper;
 	//<mainPanel>
 	self.panel=document.createElement("div");
+	self.panel.style["z-index"]="9001";
 	self.panel.style.top="0";
 	self.panel.style.position="fixed";
 	self.panel.style.left="50%";
